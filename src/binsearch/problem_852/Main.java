@@ -1,4 +1,4 @@
-package problem_852;
+package binsearch.problem_852;
 
 public class Main {
     public static void main(String[] args) {

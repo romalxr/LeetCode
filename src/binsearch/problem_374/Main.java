@@ -1,13 +1,12 @@
-package problem_35;
+package binsearch.problem_374;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {1,3,5,6};
-        int target = 7;
 
         Solution solution = new Solution();
-        int result = solution.searchInsert(nums, target);
+        solution.setPick(6);
 
+        int result = solution.guessNumber(10);
         System.out.println(result);
     }
 }

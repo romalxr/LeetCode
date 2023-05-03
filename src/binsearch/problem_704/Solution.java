@@ -1,7 +1,8 @@
-package problem_35;
+package binsearch.problem_704;
 
 class Solution {
-    public int searchInsert(int[] nums, int target) {
+
+    public int search(int[] nums, int target) {
 
         int index = -1;
         int low = 0;
@@ -9,16 +10,16 @@ class Solution {
 
         while (low <= high) {
             int mid = low  + ((high - low) / 2);
-            index = mid;
             if (nums[mid] < target) {
                 low = mid + 1;
-                index = mid + 1;
             } else if (nums[mid] > target) {
                 high = mid - 1;
             } else if (nums[mid] == target) {
+                index = mid;
                 break;
             }
         }
         return index;
     }
+
 }

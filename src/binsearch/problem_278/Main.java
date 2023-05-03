@@ -1,11 +1,10 @@
-package problem_704;
+package binsearch.problem_278;
 
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums = {-1,0,3,5,9,12};
-        int target = 13;
-        int result = solution.search(nums, target);
+        solution.bad = 876;
+        int result = solution.firstBadVersion(2132414);
         System.out.println(result);
     }
 }

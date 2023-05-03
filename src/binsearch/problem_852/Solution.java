@@ -1,4 +1,4 @@
-package problem_852;
+package binsearch.problem_852;
 
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {

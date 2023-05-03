@@ -1,4 +1,4 @@
-package problem_374;
+package binsearch.problem_374;
 
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
