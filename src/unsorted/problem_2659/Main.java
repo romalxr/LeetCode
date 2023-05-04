@@ -1,4 +1,4 @@
-package problem_2659;
+package unsorted.problem_2659;
 
 public class Main {
     public static void main(String[] args) {

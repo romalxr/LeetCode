@@ -1,4 +1,4 @@
-package problem_2659;
+package unsorted.problem_2659;
 
 import java.util.Arrays;
 
