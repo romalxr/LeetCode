@@ -9,6 +9,6 @@ class ParkingSystem {
     }
 
     public boolean addCar(int carType) {
-        return m[carType - 1] --> 0;
+        return m[carType - 1]-- > 0; // a --> b == a-- > b
     }
 }
