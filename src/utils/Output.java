@@ -10,4 +10,13 @@ public class Output {
         }
         System.out.println(sb);
     }
+    public static void PrintMatrix(int[][] matrix) {
+        for (int[] line : matrix) {
+            StringBuilder sb = new StringBuilder();
+            for (int num : line) {
+                sb.append(num).append(" ");
+            }
+            System.out.println(sb);
+        }
+    }
 }
